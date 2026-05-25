@@ -27,3 +27,63 @@
 2026-05-16 21:11:56,599 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 1000 vectors, dim=128
 2026-05-16 21:11:56,613 | INFO | src.memory.importance_scorer | Scored 4 messages. Above threshold (0.35): 2
 2026-05-16 21:11:56,614 | INFO | src.memory.importance_scorer | Scored 10 messages. Above threshold (0.35): 0
+2026-05-20 04:43:33,730 | INFO | src.memory.importance_scorer | Scored 4 messages. Above threshold (0.35): 2
+2026-05-20 04:43:33,734 | INFO | src.memory.importance_scorer | Scored 10 messages. Above threshold (0.35): 0
+2026-05-20 04:43:33,736 | INFO | src.compression.summarizer | Summarized: 520 → 93 tokens (17.9% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,737 | INFO | src.compression.summarizer | Summarized: 520 → 83 tokens (16.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,739 | INFO | src.compression.summarizer | Summarized: 156 → 78 tokens (50.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,739 | INFO | src.compression.summarizer | Summarized: 156 → 78 tokens (50.0% of original) | provider=extractive mode=entity
+2026-05-20 04:43:33,740 | INFO | src.compression.summarizer | Summarized: 156 → 78 tokens (50.0% of original) | provider=extractive mode=narrative
+2026-05-20 04:43:33,741 | INFO | src.compression.summarizer | Hierarchical compression: 6 chunks
+2026-05-20 04:43:33,741 | INFO | src.compression.summarizer | Summarized: 499 → 70 tokens (14.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,742 | INFO | src.compression.summarizer | Summarized: 499 → 75 tokens (15.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,742 | INFO | src.compression.summarizer | Summarized: 499 → 70 tokens (14.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,743 | INFO | src.compression.summarizer | Summarized: 499 → 72 tokens (14.4% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,743 | INFO | src.compression.summarizer | Summarized: 499 → 70 tokens (14.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,743 | INFO | src.compression.summarizer | Summarized: 104 → 65 tokens (62.5% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,743 | INFO | src.compression.summarizer | Summarized: 423 → 137 tokens (32.4% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,745 | INFO | src.compression.summarizer | Summarized: 195 → 78 tokens (40.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,745 | INFO | src.compression.summarizer | Summarized: 312 → 83 tokens (26.6% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:33,745 | INFO | src.compression.summarizer | Summarized: 312 → 83 tokens (26.6% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:36,473 | INFO | src.compression.embedding_compressor | PCA fitted: 384→128 dims | variance explained: 89.3% | size reduction: 66.7%
+2026-05-20 04:43:36,485 | INFO | src.compression.embedding_compressor | PCA fitted: 384→128 dims | variance explained: 89.3% | size reduction: 66.7%
+2026-05-20 04:43:36,500 | INFO | src.compression.embedding_compressor | PCA fitted: 384→128 dims | variance explained: 89.3% | size reduction: 66.7%
+2026-05-20 04:43:36,511 | INFO | src.compression.embedding_compressor | PCA fitted: 384→64 dims | variance explained: 61.0% | size reduction: 83.3%
+2026-05-20 04:43:36,514 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 100 vectors, dim=128
+2026-05-20 04:43:36,515 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 50 vectors, dim=64
+2026-05-20 04:43:36,517 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 100 vectors, dim=128
+2026-05-20 04:43:36,520 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 1000 vectors, dim=128
+2026-05-20 04:43:36,533 | INFO | src.retrieval.token_budget_optimizer | Budget optimizer: 1/5 entries packed, 45/200 tokens used (22%), redundancy_removed=4
+2026-05-20 04:43:36,534 | INFO | src.retrieval.token_budget_optimizer | Budget optimizer: 2/2 entries packed, 79/300 tokens used (26%), redundancy_removed=0
+2026-05-20 04:43:36,535 | INFO | src.retrieval.token_budget_optimizer | Budget optimizer: 0/3 entries packed, 0/1000 tokens used (0%), redundancy_removed=0
+2026-05-20 04:43:36,586 | INFO | src.retrieval.token_budget_optimizer | Budget optimizer: 0/1 entries packed, 10/500 tokens used (2%), redundancy_removed=0
+2026-05-20 04:43:47,504 | INFO | src.memory.importance_scorer | Scored 4 messages. Above threshold (0.35): 2
+2026-05-20 04:43:47,505 | INFO | src.memory.importance_scorer | Scored 10 messages. Above threshold (0.35): 0
+2026-05-20 04:43:47,507 | INFO | src.compression.summarizer | Summarized: 520 → 93 tokens (17.9% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,508 | INFO | src.compression.summarizer | Summarized: 520 → 83 tokens (16.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,509 | INFO | src.compression.summarizer | Summarized: 156 → 78 tokens (50.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,509 | INFO | src.compression.summarizer | Summarized: 156 → 78 tokens (50.0% of original) | provider=extractive mode=entity
+2026-05-20 04:43:47,509 | INFO | src.compression.summarizer | Summarized: 156 → 78 tokens (50.0% of original) | provider=extractive mode=narrative
+2026-05-20 04:43:47,510 | INFO | src.compression.summarizer | Hierarchical compression: 6 chunks
+2026-05-20 04:43:47,510 | INFO | src.compression.summarizer | Summarized: 499 → 70 tokens (14.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,510 | INFO | src.compression.summarizer | Summarized: 499 → 75 tokens (15.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,511 | INFO | src.compression.summarizer | Summarized: 499 → 70 tokens (14.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,511 | INFO | src.compression.summarizer | Summarized: 499 → 72 tokens (14.4% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,512 | INFO | src.compression.summarizer | Summarized: 499 → 70 tokens (14.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,512 | INFO | src.compression.summarizer | Summarized: 104 → 65 tokens (62.5% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,512 | INFO | src.compression.summarizer | Summarized: 423 → 137 tokens (32.4% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,513 | INFO | src.compression.summarizer | Summarized: 195 → 78 tokens (40.0% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,513 | INFO | src.compression.summarizer | Summarized: 312 → 83 tokens (26.6% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:47,513 | INFO | src.compression.summarizer | Summarized: 312 → 83 tokens (26.6% of original) | provider=extractive mode=bullet
+2026-05-20 04:43:48,684 | INFO | src.compression.embedding_compressor | PCA fitted: 384→128 dims | variance explained: 89.3% | size reduction: 66.7%
+2026-05-20 04:43:48,696 | INFO | src.compression.embedding_compressor | PCA fitted: 384→128 dims | variance explained: 89.3% | size reduction: 66.7%
+2026-05-20 04:43:48,708 | INFO | src.compression.embedding_compressor | PCA fitted: 384→128 dims | variance explained: 89.3% | size reduction: 66.7%
+2026-05-20 04:43:48,718 | INFO | src.compression.embedding_compressor | PCA fitted: 384→64 dims | variance explained: 61.0% | size reduction: 83.3%
+2026-05-20 04:43:48,720 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 100 vectors, dim=128
+2026-05-20 04:43:48,721 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 50 vectors, dim=64
+2026-05-20 04:43:48,722 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 100 vectors, dim=128
+2026-05-20 04:43:48,725 | INFO | src.compression.embedding_compressor | ScalarQuantizer fitted on 1000 vectors, dim=128
+2026-05-20 04:43:48,733 | INFO | src.retrieval.token_budget_optimizer | Budget optimizer: 1/5 entries packed, 45/200 tokens used (22%), redundancy_removed=4
+2026-05-20 04:43:48,734 | INFO | src.retrieval.token_budget_optimizer | Budget optimizer: 2/2 entries packed, 79/300 tokens used (26%), redundancy_removed=0
+2026-05-20 04:43:48,735 | INFO | src.retrieval.token_budget_optimizer | Budget optimizer: 2/3 entries packed, 26/1000 tokens used (3%), redundancy_removed=1
+2026-05-20 04:43:48,736 | INFO | src.retrieval.token_budget_optimizer | Budget optimizer: 0/1 entries packed, 10/500 tokens used (2%), redundancy_removed=0
