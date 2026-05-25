@@ -1,0 +1,46 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables (contains API keys — never upload)
+.env
+
+# Data and embeddings (generated files)
+data/embeddings/
+data/raw/
+data/processed/
+logs/
+
+# ML model files
+*.pt
+*.bin
+*.ckpt
+models/
+
+# Mac junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# pytest cache
+.pytest_cache/
