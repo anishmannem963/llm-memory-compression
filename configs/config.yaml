@@ -1,0 +1,39 @@
+memory:
+  short_term_max_tokens: 2000
+  working_memory_max_tokens: 1000
+  long_term_max_entries: 10000
+  importance_threshold: 0.35
+  recency_decay_factor: 0.95      # older memories decay in score
+  top_k_retrieval: 5
+
+compression:
+  target_ratio: 0.20              # compress to 20% of original size
+  min_summary_tokens: 50
+  max_summary_tokens: 300
+  embedding_dim: 384              # all-MiniLM-L6-v2 output dim
+  pca_components: 128             # reduce embeddings via PCA
+
+models:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  default_llm: openai
+  openai_model: gpt-3.5-turbo    # swap to gpt-4 for better compression
+  anthropic_model: claude-3-haiku-20240307
+
+vector_db:
+  persist_dir: ./data/embeddings/chroma
+  collection_name: memory_store
+  distance_metric: cosine
+
+evaluation:
+  metrics:
+    - compression_ratio
+    - retrieval_precision
+    - retrieval_recall
+    - rouge_l
+    - hallucination_rate
+  output_dir: ./data/processed/eval_results
+
+logging:
+  level: INFO
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
+  file: ./logs/system.log
